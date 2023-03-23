@@ -17,7 +17,7 @@
 /*  */
 header  {
     background-color: black;
-    height: 50px;
+    height: 40px;
 }
 
 .box.icons {
@@ -25,15 +25,16 @@ header  {
     top: 5px;
     right: 5px;
     color: white;
-    border: grey 1px solid;
 }
 
 .box.icons a {
     font-size:  12px;
     background-color: grey;
-    padding: 2px;
+    padding: 3px;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
+    margin-left: 3px;
 }
 
 
@@ -44,7 +45,7 @@ header  {
 /*  */
 main {
     background-color: aqua;
-    height: calc(100% - 50px - 100px);
+    height: calc(100% - 40px - 100px);
     overflow: scroll;
     
 }
@@ -61,9 +62,17 @@ footer  {
 }
 
 /* debug */
-footer .col {
+/* footer .col {
     border: black 1px solid;
     display: flex;
 }
+
+.box.icons {
+    border: grey 1px solid;
+}
+
+.box.icons a {
+    background-color: grey;
+    } */
 
 
